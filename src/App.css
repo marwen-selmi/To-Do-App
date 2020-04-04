@@ -1,0 +1,46 @@
+.Input-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 300px;
+  background-color: #4696e5;
+  color: aliceblue;
+  height: 200px;
+}
+
+.Input-todo form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.Input-todo input {
+  width: 800px;
+  height: 30px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  color: blue;
+}
+
+.Input-todo button {
+  background-color: #4696e5;
+  color: aliceblue;
+  height: 30px;
+  width: 10%;
+}
+
+/************component Todolist************************/
+
+ul {
+  list-style-type: none;
+}
+
+ul button:nth-child(odd) {
+  background-color: green;
+  color: white;
+}
+ul button:nth-child(even) {
+  background-color: red;
+  color: white;
+}
